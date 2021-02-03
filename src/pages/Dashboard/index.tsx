@@ -50,8 +50,8 @@ const Dashboard: React.FC = () => {
     food: Omit<IFoodPlate, 'id' | 'available'>,
   ): Promise<void> {
     const { data } = await api.put(`/foods/${editingFood.id}`, {
+      ...editingFood,
       ...food,
-      available: editingFood.available,
     });
 
     setFoods([...foods.filter(f => f.id !== editingFood.id), data]);

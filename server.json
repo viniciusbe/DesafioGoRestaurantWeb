@@ -13,7 +13,7 @@
       "name": "A la Camarón",
       "price": "25.90",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "available": false,
+      "available": true,
       "id": 3
     }
   ]
