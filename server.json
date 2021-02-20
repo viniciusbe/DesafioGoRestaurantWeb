@@ -11,10 +11,18 @@
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
       "name": "A la Camarón",
-      "price": "25.90",
+      "price": "30.90",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "available": true,
+      "available": false,
       "id": 3
+    },
+    {
+      "image": "https://s2.glbimg.com/CF9niWcCnNju2WzcM9YX0Rp-Vu0=/0x18:954x1138/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/P/J/toSZEwTyKCYgwoCWAJfQ/whatsapp-image-2020-02-12-at-16.49.48.jpeg",
+      "name": "reamy Garlic Tuscan Salmon With Spinach",
+      "price": "15,69",
+      "description": "Creamy Garlic Tuscan Salmon With Spinach and Sun-Dried Tomatoes",
+      "available": true,
+      "id": 4
     }
   ]
 }

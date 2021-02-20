@@ -7,7 +7,12 @@ interface IFoodPlateProps {
 export const Container = styled.div<IFoodPlateProps>`
   background: #f0f0f5;
   border-radius: 8px;
-  width: 352px;
+  width: 336px;
+  height: 504px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   header {
     background: #ffb84d;
@@ -31,7 +36,11 @@ export const Container = styled.div<IFoodPlateProps>`
   }
 
   section.body {
-    padding: 30px;
+    flex: 1;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     h2 {
       color: #3d3d4d;
@@ -39,8 +48,8 @@ export const Container = styled.div<IFoodPlateProps>`
 
     p {
       color: #3d3d4d;
-
-      margin-top: 16px;
+      overflow: hidden;
+      margin-top: 8px;
     }
 
     .price {
@@ -49,6 +58,12 @@ export const Container = styled.div<IFoodPlateProps>`
       line-height: 34px;
       color: #39b100;
 
+      ${props =>
+    !props.available &&
+    css`
+          font-size: 20px;
+          color: rgba(255, 0, 0, 0.4);
+        `};
       b {
         font-weight: 600;
       }

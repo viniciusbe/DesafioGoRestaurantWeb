@@ -54,7 +54,7 @@ const ModalEditFood: React.FC<IModalProps> = ({
         <Input name="name" placeholder="Ex: Moda Italiana" />
         <Input name="price" placeholder="Ex: 19.90" />
 
-        <Input name="description" placeholder="Descrição" />
+        <Input name="description" placeholder="Descrição" maxLength={90} />
 
         <button type="submit" data-testid="edit-food-button">
           <div className="text">Editar Prato</div>

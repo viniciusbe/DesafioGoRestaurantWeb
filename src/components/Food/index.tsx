@@ -49,7 +49,7 @@ const Food: React.FC<IProps> = ({
         <h2>{food.name}</h2>
         <p>{food.description}</p>
         <p className="price">
-          R$ <b>{food.price}</b>
+          {isAvailable ? <b>R${food.price}</b> : 'Indisponível'}
         </p>
       </section>
       <section className="footer">
@@ -74,8 +74,6 @@ const Food: React.FC<IProps> = ({
         </div>
 
         <div className="availability-container">
-          <p>{isAvailable ? 'Disponível' : 'Indisponível'}</p>
-
           <label htmlFor={`available-switch-${food.id}`} className="switch">
             <input
               id={`available-switch-${food.id}`}
