@@ -7,7 +7,7 @@
 <p align="center"> web version of GoRestaurant, application for food orders
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/viniciusbe/GoRestaurant-app?color=%23C72828)](https://github.com/viniciusbe/GoRestaurant-app/blob/master/LICENSE) 
+[![GitHub license](https://img.shields.io/github/license/viniciusbe/GoRestaurant-app?color=%23C72828)](https://github.com/viniciusbe/GoRestaurant-web/blob/master/LICENSE) 
 [![Badge](https://img.shields.io/badge/made%20by-Vin%C3%ADcius%20Bernardes-%23C72828)](https://github.com/viniciusbe) 
  
  
